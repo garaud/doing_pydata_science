@@ -12,7 +12,7 @@ Clone this repo and launch ``ipython notebook`` at the root directory of this
 project. You can also launch the Bash script ``launch.sh`` which carries out the
 same command with some specific ipython options.
 
-You can alse use the NBViewer_ website to read a notebook.
+You can also use the NBViewer_ website to read a notebook.
 
 **Note**: This repo aims to practice myself in Data Science and to show that's
 easy to do Data Science in Python.
