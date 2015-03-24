@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ipython notebook --script --matplotlib=inline
+ipython notebook
