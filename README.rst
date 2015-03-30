@@ -6,7 +6,7 @@ Doing Data Science in Python
 Data Science`_ by `Rachel Schutt <http://columbiadatascience.com/>`_ and `Cathy
 O'Neil <http://mathbabe.org/>`_
 
-These code samples and solutions are splitted into different `IPython notebook`_.
+These code samples and solutions are splitted into different `IPython notebooks`_.
 
 Clone this repo and launch ``ipython notebook`` at the root directory of this
 project. You can also launch the Bash script ``launch.sh`` which carries out the
@@ -52,3 +52,4 @@ Requirements
 
 .. _pandas: http://pandas.pydata.org/
 .. _IPython Notebook: http://ipython.org/notebook.html
+.. _IPython Notebooks: http://ipython.org/notebook.html
