@@ -5,7 +5,6 @@
 
 from __future__ import print_function
 import os
-
 import requests
 
 URL = "http://stat.columbia.edu/~rachel/datasets"
@@ -13,7 +12,7 @@ BASENAME = "nyt{}.csv"
 BUFSIZE = 1024
 OUTPUT_DIR = "nyt-data"
 
-def download_singe_file(number):
+def download_single_file(number):
     fname = BASENAME.format(number)
     url = '/'.join([URL, fname])
     resp = requests.get(url, stream=True)
@@ -25,6 +24,6 @@ def download_singe_file(number):
 if __name__ == '__main__':
     if not os.path.isdir(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
-    for n in range(1, 32):
+    for n in xrange(1, 32):
         print("Downloading... file " + BASENAME.format(n))
-        download_singe_file(n)
+        download_single_file(n)
