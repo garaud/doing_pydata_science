@@ -53,7 +53,7 @@ Requirements
 * requests_
 
 .. _pandas: http://pandas.pydata.org/
-.. _requests http://docs.python-requests.org/en/latest/
+.. _requests: http://docs.python-requests.org/en/latest/
 .. _IPython Notebook: http://ipython.org/notebook.html
 .. _IPython/Jupyter Notebooks: http://ipython.org/notebook.html
 .. _IPython Notebooks: http://ipython.org/notebook.html
