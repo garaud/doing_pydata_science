@@ -19,9 +19,9 @@ def download_single_file(number):
     fname = BASENAME.format(number)
     url = '/'.join([URL, fname])
     resp = requests.get(url, stream=True)
-    with open(os.path.join(OUTPUT_DIR, fname), 'w') as fobj:
+    with open(os.path.join(OUTPUT_DIR, fname), 'bw') as fobj:
         for chunk in resp.iter_content(BUFSIZE):
-            fobj.write(str(chunk))
+            fobj.write(chunk)
 
 
 if __name__ == '__main__':
